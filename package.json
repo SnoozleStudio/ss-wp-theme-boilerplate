@@ -1,13 +1,13 @@
 {
   "name": "blank-theme",
-  "description": "A starter-kit for WordPress themes",
-  "version": "1.0.0",
-  "author": "Olivier Guilleux",
-  "authorURI": "https://www.olivier-guilleux.com",
+  "description": "A boilerplate for Snoozle Studio WordPress themes",
+  "version": "2.0.0",
+  "author": "Paolo Mason",
+  "authorURI": "https://paolomason.net",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/oguilleux/webpack-gulp-wordpress-starter-theme.git"
+    "url": "git://github.com/SnoozleStudio/ss-wp-theme-boilerplate.git"
   },
   "keywords": [
     "wordpress",

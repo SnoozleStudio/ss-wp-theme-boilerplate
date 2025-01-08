@@ -72,7 +72,7 @@ function sswp_theme_dependencies()
   // If plugins are missing, show the warning message
   if (!empty($plugins)) {
     foreach ($plugins as $plugin => $name) {
-      echo '<div class="error"><p>' . sprintf(__('Warning: The sswp theme requires the plugin %s.', 'sswp'), $name) . ' <a href="' . admin_url() . 'plugins.php">' . sprintf(__('View Plugins', 'sswp'), $name) . '</a></p></div>';
+      echo '<div class="error"><p>' . sprintf(__('Warning: The sswp theme requires the plugin %s.', 'ss'), $name) . ' <a href="' . admin_url() . 'plugins.php">' . sprintf(__('View Plugins', 'ss'), $name) . '</a></p></div>';
     }
 
     // Install and activate missing plugins
