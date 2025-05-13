@@ -31,4 +31,4 @@ if (is_admin()) {
 }
 
 // THEMES DEPENDENCIES
-include('configure/theme-dependencies.php');
+include('configure/plugin.php');
