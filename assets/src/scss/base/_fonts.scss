@@ -1,0 +1,22 @@
+@use '../fonts/ibm-plex-sans/scss' as PlexSans with ($font-prefix: '../fonts/ibm-plex-sans'
+);
+
+@use '../fonts/ibm-plex-mono/scss' as PlexMono with ($font-prefix: '../fonts/ibm-plex-mono'
+);
+
+@use '../fonts/ibm-plex-serif/scss' as PlexSerif with ($font-prefix: '../fonts/ibm-plex-serif'
+);
+
+@include PlexMono.all();
+@include PlexSans.all();
+@include PlexSerif.all();
+
+$text-size-xs: 0.56rem;
+$text-size-sm: 0.75rem;
+$text-size-md: 1rem;
+$text-size-lg: 1.33rem;
+$text-size-xl: 1.78rem;
+$text-size-2xl: 2.37rem;
+$text-size-3xl: 3.16rem;
+$text-size-4xl: 4.21rem;
+$text-size-5xl: 5.61rem;

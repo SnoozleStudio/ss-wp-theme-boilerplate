@@ -7,6 +7,7 @@ class General {
 
 	init() {
 		// for tests purposes only
+		// eslint-disable-next-line no-console
 		console.log(this.testVariable);
 	}
 }

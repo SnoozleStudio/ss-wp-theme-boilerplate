@@ -1,9 +1,13 @@
-
-html, body {
+html,
+body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
+
+    // font-family: 'IBM Plex Mono';
+    font-family: 'IBM Plex Sans';
+    // font-family: 'IBM Plex Serif';
 }
 
 a,
@@ -14,10 +18,13 @@ a:active {
     text-decoration: none;
 }
 
-*, *:hover, *:focus {
-    outline:0;
+*,
+*:hover,
+*:focus {
+    outline: 0;
 }
 
-.transition, %transition {
-    transition:all 0.3s ease-in-out;
+.transition,
+%transition {
+    transition: all 0.3s ease-in-out;
 }

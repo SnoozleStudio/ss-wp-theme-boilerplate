@@ -9,7 +9,8 @@
 // @import "vendors/myvendor";
 
 // base
-@import "base/fonts",
+@import "base/reset",
+        "base/fonts",
         "base/base";
 
 // layout
@@ -20,7 +21,8 @@
 
 // components
 @import "components/buttons",
-        "components/modal";
+        "components/modal",
+        "components/navigation";
 
 // pages
 @import "pages/front-page",
