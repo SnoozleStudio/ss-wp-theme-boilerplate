@@ -24,7 +24,7 @@ function custom_setup()
     add_theme_support( 'automatic-feed-links' );
 
     // Languages
-    load_theme_textdomain('textdomaintomodify', get_template_directory() . '/languages');
+    load_theme_textdomain('ss', get_template_directory() . '/languages');
 
     // HTML 5 - Example : deletes type="*" in scripts and style tags
     add_theme_support('html5', ['script', 'style']);
