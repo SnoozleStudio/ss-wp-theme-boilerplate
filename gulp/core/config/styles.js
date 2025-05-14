@@ -15,7 +15,8 @@ module.exports = deepMerge({
 	paths: {
 		watch: [
 			assets.src + '/scss/**/*.scss',
-			'!' + assets.src + '/scss/**/*_tmp\\d+.scss'
+			'!' + assets.src + '/scss/**/*_tmp\\d+.scss',
+			'./**/*.php',
 		],
 		src:   [
 			assets.src + '/scss/*.scss',

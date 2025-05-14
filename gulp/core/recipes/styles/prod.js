@@ -3,6 +3,7 @@ var plumber      = require('gulp-plumber');
 var sass         = require('gulp-sass')(require('sass'));
 var autoprefixer = require('autoprefixer');
 var cssnano      = require('cssnano');
+var tailwindcss4 = require('@tailwindcss/postcss');
 var postcss      = require('gulp-postcss');
 var notify       = require('gulp-notify');
 
@@ -13,6 +14,7 @@ var pumped       = require('../../utils/pumped');
 var config       = require('../../config/styles');
 
 var plugins = [
+	tailwindcss4(),
 	autoprefixer(config.options.autoprefixer),
 	cssnano(config.options.minify)
 ];

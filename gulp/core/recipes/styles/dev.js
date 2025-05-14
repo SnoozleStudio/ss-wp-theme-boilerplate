@@ -6,6 +6,7 @@ var sass         = require('gulp-sass')(require('sass'));
 var notify       = require('gulp-notify');
 var browserSync  = require('browser-sync');
 var autoprefixer = require('autoprefixer');
+var tailwindcss4 = require('@tailwindcss/postcss');
 var postcss      = require('gulp-postcss');
 
 // config
@@ -16,6 +17,7 @@ var pumped       = require('../../utils/pumped');
 
 // postcss
 var plugins = [
+	tailwindcss4(),
 	autoprefixer(config.options.autoprefixer)
 ];
 
