@@ -69,7 +69,6 @@
   "dependencies": {
     "@babel/runtime": "^7.27.1",
     "@tailwindcss/postcss": "^4.1.6",
-    "normalize.css": "^8.0.1",
     "tailwindcss": "^4.1.6"
   }
 }
