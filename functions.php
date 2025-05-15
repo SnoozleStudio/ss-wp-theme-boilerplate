@@ -12,6 +12,10 @@ include('configure/utilities.php');
 
 include('configure/configure.php');
 
+// CUSTOMIZER
+
+include('configure/customizer.php');
+
 // JAVASCRIPT & CSS
 
 include('configure/js-css.php');

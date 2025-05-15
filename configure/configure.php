@@ -21,7 +21,7 @@ function custom_setup()
     add_theme_support('title-tag');
 
     // Feed links
-    add_theme_support( 'automatic-feed-links' );
+    add_theme_support('automatic-feed-links');
 
     // Languages
     load_theme_textdomain('ss', get_template_directory() . '/languages');
