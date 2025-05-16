@@ -19,7 +19,8 @@
 
 				<div class="site-branding shrink-0 mr-6">
 					<div class="flex items-center justify-start">
-						<?php echo get_theme_mod('ss_logo_image'); ?>
+
+						<img src="<?php echo get_theme_mod('ss_logo_image', ''); ?>" alt="<?php echo get_theme_mod('ss_logo_alt_text', ''); ?>">
 
 						<?php if (is_front_page() || is_home()) : ?>
 							<h1 class="site-title text-2xl font-bold text-gray-900">
